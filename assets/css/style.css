@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root {
+    /* font-size */
+    --fs-s: 14px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 30px;
+    --fs-2xl: 50px
+}
+
+.my-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bg {
+    background: #F7F1E3;
+}
+
+.line1 {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.border1 {
+    border: 2px solid black
+}
+
+.border-md-top {
+    border-top: 2px solid black;
+}
+
+.card1 {
+    border-right: 2px solid black;
+    /* border-left: 1px solid black; */
+    padding: 48px 27px;
+}
+
+.h-70 {
+    height: 70px;
+}
+
+.heading1 {
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Perpetua Titling MT';
+    font-size: var(--fs-2xl);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 104%;
+    /* 83.2px */
+}
+
+.heading2 {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.heading3 {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.t1 {
+    font-family: 'Noto' Serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 2px 24px;
+}
+
+.border2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.text1 {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-s);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.text2 {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text3 {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.time-left {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-md);
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00A106;
+}
+
+.countdown {
+    font-family: 'Noto', Serif;
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF0000;
+}
+
+.btn1 {
+    color: #000;
+    font-family: ' Noto', Serif;
+    font-size: var(--fs-s);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    border: none;
+    background-color: #F7F1E3;
+}
+
+.border-X {
+    border-left: none;
+    border-right: none;
+}
+
+.btn2 {
+    background-color: #F7F1E3;
+    padding: 2px 24px;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn3 {
+    padding: 10px 16px;
+    border: 2px solid black;
+    background-color: #FFD600;
+    font-family: ' Noto', Serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.max-w1 {
+    max-width: 327px;
+}
+
+.pos-ab {
+    position: absolute;
+    top:31%;
+    right: 17%;
+}
+
+.pos-abs {
+    position: absolute;
+    top: 31%;
+    right: 6%;
+}
+
+.py-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.pb90{
+    padding-bottom: 90px;
+}
+
+.pr-0 {
+    padding-right: 0;
+
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.mr11 {
+    margin-right: 11px;
+}
+
+.border-r {
+    border-right: none;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed,
+.accordion-flush .accordion-item2 .accordion-button,
+.accordion-flush .accordion-item2 .accordion-button.collapsed {
+    border-radius: 0;
+    background: #F7F1E3;
+}
+
+.accordion-flush .accordion-collapse {
+    border-width: 0;
+    color: black;
+
+}
+
+.border-md {
+    border: 2px solid black;
+}
+
+.accordion-item {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F7F1E3;
+    border-bottom: 2px solid black !important;
+    border-left: 2px solid black !important;
+    border-right: 2px solid black !important;
+}
+
+.accordion-item2 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F7F1E3;
+    border-left: 2px solid black !important;
+    border-right: 2px solid black !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    border: none !important;
+    box-shadow: none;
+    background: #F7F1E3;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    color: black !important;
+    border: none;
+}
+
+.accordion-button::after {
+    background-image: url(../images/+.png);
+    background-size: var(--bs-accordion-btn-icon);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/-.png);
+    transform: none;
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+        --fs-s: 14px;
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 24px;
+        --fs-xl: 36px;
+        --fs-2xl: 80px
+    }
+
+    .pos-ab {
+        position: absolute;
+        top: 36%;
+        right: 17%;
+    }
+
+    .pos-abs {
+        position: absolute;
+        top: 36%;
+        right: 12%;
+    }
+}
+
+@media (min-width:768px) {
+    .pos-abs {
+        position: absolute;
+        top: 24%;
+        right: 12%;
+    }
+
+    .pos-ab {
+        position: absolute;
+        top: 24%;
+        right: 17%;
+    }
+
+    .border-md {
+        border: 2px solid black;
+    }
+
+    .border-md-top {
+        border-top: 2px solid black;
+    }
+}
+
+@media (min-width:992px) {
+    .line1-lg {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .border-md {
+        border: none;
+    }
+
+    .border-md-top {
+        border-top: none;
+    }
+
+    .border-X {
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+
+    .border-r {
+        border-right: 2px solid black;
+    }
+}
